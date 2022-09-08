@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>layout</title>
+	<style type="text/css">
+		.main{
+			height: auto;
+			width: 95%;
+			/*border: 1px solid black;*/
+			margin-left: 2.5%;
+			padding-bottom: 20px;
+			background: lightgrey;
+		}
+		.box1{
+			height: 350px;
+			width: 92%;
+			/*border: 2px solid blue;*/
+			display: flex;
+			justify-content: space-between;
+			margin-left: 4%;
+			padding-top: 20px;
+
+		}
+		.pic{
+			height: 200px;
+			width: 100%;
+			/*border: 1px solid green;*/
+		}
+		.pic img{
+			height: 100%;
+			width: 100%;
+			transition-duration: 1.5s;
+
+		}
+		.pic img:hover{
+			box-shadow: 2px 2px 5px 3px black;
+			cursor: pointer;
+
+	
+		}
+		.pic p{
+			text-align: center;
+			font-size: 15px;
+			font-weight: bold;
+			padding: 11px;
+		}
+		button{
+			text-transform: uppercase;
+			position: relative;
+			bottom: 15px;
+			left:  11px;
+	
+		}
+		.a{
+			height: 350px;
+			width: 31%;
+			/*border: 1px solid red;*/
+			background: white;
+		
+		}
+		
+		.b{
+			height: 350px;
+			width: 31%;
+			/*border: 1px solid red;*/
+			background: white;
+
+		}
+		.c{
+			height: 350px;
+			width: 31%;
+			/*border: 1px solid red;*/
+			background: white;
+
+		}
+		.box2{
+			height: 350px;
+			width: 92%;
+			/*border: 2px solid blue;*/
+			display: flex;
+			justify-content: space-between;
+			margin-top: 20px ;
+			margin-left: 4%;
+
+		}
+		.d{
+			height: 350px;
+			width: 31%;
+			/*border: 1px solid red;*/
+			background: white;
+
+		}
+		.e{
+			height: 350px;
+			width: 31%;
+			/*border: 1px solid red;*/
+			background: white;
+
+		}
+		.f{
+			height: 350px;
+			width: 31%;
+			/*border: 1px solid red;*/
+			background: white;
+
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="main">
+	<div class="box1">
+		<div class="a">
+			<div class="pic">
+				<img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_960_720.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris </p>
+			<button>view</button><button>edit</button>
+			</div>
+
+		</div>
+		<div class="b">
+			<div class="pic">
+				<img src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830__340.jpg">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris </p>
+			<button>view</button><button>edit</button>
+			</div>
+			
+		</div>
+		<div class="c">
+			<div class="pic">
+				<img src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris </p>
+			<button>view</button><button>edit</button>
+			</div>
+		</div>
+	</div>
+	<div class="box2">
+		<div class="d">
+			<div class="pic">
+				<img src="https://cdn.pixabay.com/photo/2013/07/18/10/56/railroad-163518__340.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris </p>
+			<button>view</button><button>edit</button>
+			</div>
+		</div>
+		<div class="e">
+			<div class="pic">
+				<img src="https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris </p>
+			<button>view</button><button>edit</button>
+			</div>
+		</div>
+		<div class="f">
+			<div class="pic">
+				<img src="https://cdn.pixabay.com/photo/2015/06/19/20/13/sunset-815270__340.jpg">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris </p>
+			<button>view</button><button>edit</button>
+			</div>
+		
+		</div>
+	</div>
+	</div>
+
+</body>
+</html>
