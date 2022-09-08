@@ -1,0 +1,49 @@
+.subject{
+	height:70px;
+	width: 100%;
+	border: 1px solid black;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+	text-transform: uppercase;
+	animation-name: name;
+	animation-duration: 5s;
+	animation-direction: normal;
+	animation-iteration-count: infinite;
+}
+@keyframes name{
+	0%{
+		color: pink;
+	}
+	25%{
+		color: blue;
+
+	}
+	50%{
+		color: greenyellow;
+
+	}
+	75%{
+		color: gold;
+
+	}
+	100%{
+		color: seagreen;
+
+	}
+}
+.newspaper{
+	font-size: 25px;
+	column-count: 4;
+	column-gap: 50px;
+	column-rule: 5px double black;
+	border: 1px solid black;
+	text-indent: 80px;
+}
+.newspaper p::first-letter{
+	color:  red;
+	font-size: 35px;
+}
+
+
+

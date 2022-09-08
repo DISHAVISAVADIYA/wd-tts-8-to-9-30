@@ -1,0 +1,54 @@
+h2{
+	height: 60px;
+	width: 100%;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 12px;
+	box-sizing: border-box;
+	background-image: linear-gradient( to right,grey,lightpink);
+
+}
+#box{
+	height: 200px;
+	width: 700px;
+	margin-left: 320px;
+	font-size: 20px;
+	transition: 3s;
+	background: skyblue;
+	border-radius: 30px ;
+	padding: 20px;
+
+
+}
+#box p{
+	font-size: 20px;
+}
+#box p::first-line{
+	color: red;
+}
+#box:fullScreen{
+	background: pink;
+}
+
+#box:fullScreen p{
+	font-size: 30px;
+	
+
+}
+button{
+	height: 50px;
+	width:  180px;
+	font-size: 18px;
+	margin-left: 600px;
+	border-radius: 50px;
+
+}
+button:hover{
+	box-shadow: 2px 7px 3px black;
+	background: grey;
+	cursor: pointer;
+}
+
+
+
+

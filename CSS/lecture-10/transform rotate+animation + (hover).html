@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>rotate + animation + (hover)</title>
+	<style type="text/css">
+		.a{
+			height: 200px;
+			width: 250px;
+			background: red;
+					}
+		.a:hover{
+			animation-name: ani;
+			animation-duration: 1s;
+			animation-iteration-count: 1;
+
+	}
+		@keyframes ani{
+			0%{
+				transform: rotate(0deg);
+			}
+			20%{
+				transform: rotate(60deg);
+			}
+			40%{
+				transform: rotate(120deg);
+			}
+			60%{
+				transform: rotate(180deg);
+			}
+			80%{
+				transform: rotate(240deg);}
+
+			100%{
+				transform: rotate(360deg);
+			}
+			}
+			.b{
+			height: 200px;
+			width: 250px;
+			background: coral;
+			animation-name: example;
+			animation-duration: 1s;
+			animation-iteration-count: 1;
+		}
+		@keyframes example{
+			0%{
+				transform: rotate(0deg);
+			}
+			20%{
+				transform: rotate(60deg);
+			}
+			40%{
+				transform: rotate(120deg);
+			}
+			60%{
+				transform: rotate(180deg);
+			}
+			80%{
+				transform: rotate(240deg);}
+
+			100%{
+				transform: rotate(360deg);
+			}
+			}
+
+	</style>
+</head>
+<body>
+	<h2>transform+hover+animation</h2>
+	<br><br>	
+
+	<div class="a"></div>
+	<br><br>
+	<h2>tranasform+animation</h2>
+	<br><br>	
+	<br><br>	
+	<div class="b"></div>
+
+</body>
+</html>

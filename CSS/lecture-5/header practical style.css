@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding-top: 0px;
+}
+
+.header{
+	height: 100px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	position: sticky;
+	top: 0px;
+}
+.logo{
+	height: 100px;
+	width: 10%;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	height: 100%;
+	width: 100%;
+
+}
+.name{
+	height: 100px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	font-size: 60px;
+	text-align: center;
+	padding-top: 10px;
+	box-sizing: border-box;
+	font-family: 'Yellowtail', cursive;
+	text-transform: uppercase;
+	background-image: linear-gradient(to left,white,blue);
+	color: purple;
+
+}
+.nav{
+	height: 20px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	white-space: nowrap;
+	overflow: hidden;
+	font-weight: bold;
+	text-decoration: 3px wavy black; 
+}
+.box{
+	height: 600px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+}
+.box1{
+	height: 600px;
+	width: 10%;
+	/*border: 1px solid black;*/
+	overflow: scroll;
+
+}
+.box1 input{
+	height: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-right: 5px;
+
+}
+.box1 ol{
+	list-style: none;
+	font-size: 20px;
+	line-height: 35px;
+	padding-top: 30px;
+
+
+}
+.box2{
+	height: 600px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+}
+.detail{
+	padding-top: 10px;
+	text-indent: 100px;
+	height: 100px;
+	width: 100%;
+	/*border: 1px solid black;*/
+
+
+
+}
+ .box2 p::first-letter{
+	font-size: 30px;
+	color: purple;
+}
+.picture{
+	height: 400px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-between;
+
+}
+.first:hover{
+	height: 500px;
+	width: 33%;
+	box-shadow: 8px 6px 5px 2px grey;
+}
+.first{
+	height: 490px;
+	width: 31%;
+}
+.first img{
+	height: 100%;
+	width: 100%;
+}
+.second{
+	height: 490px;
+	width: 31%;
+}
+.second img{
+	height: 100%;
+	width: 100%;
+}
+.second:hover{
+	height: 500px;
+	width: 33%;
+	box-shadow: 8px 6px 5px 2px grey;
+}
+.third{
+	height: 490px;
+	width: 31%;
+}
+.third img{
+	height: 100%;
+	width: 100%;
+}
+.third:hover{
+	height: 500px;
+	width: 33%;
+	box-shadow: 8px 6px 5px 2px grey;
+}
+.footer{
+	height: 50px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	text-align: center;
+	padding-top: 12px;
+	font-size: 20px;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+
+

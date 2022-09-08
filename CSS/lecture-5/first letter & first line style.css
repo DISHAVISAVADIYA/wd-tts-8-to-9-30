@@ -1,0 +1,46 @@
+.box1{
+	height: 250px;
+	width: 300px;
+	border: 1px solid black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-indent: 20px;
+
+}
+.box2{
+	height: 250px;
+	width: 300px;
+	border: 1px solid black;
+	position: absolute;
+	top: 250px;
+	left: 310px;
+}
+.box3{
+	height: 250px;
+	width: 300px;
+	border: 1px solid black;
+	position: absolute;
+	top: 500px;
+	left: 620px;
+	text-indent: 20px;
+
+}
+.box1 p::first-letter{
+	font-size: 35px;
+	color: blue;
+
+}
+.box2 p::first-line{
+	font-size: 25px;
+	color: red;
+
+}.box3 p::first-letter{
+	font-size: 35px;
+	color: hotpink;
+
+
+
+
+
+

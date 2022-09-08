@@ -1,0 +1,97 @@
+.main{
+	font-size: 30px;
+	text-align: center;
+	display: flex;
+	margin-top: 200px;
+	margin-left: 180px;
+}
+
+
+.box1{
+	height: 150px;
+	width: 200px;
+	background: yellowgreen;
+
+
+}
+.box2{
+	height: 150px;
+	width: 200px;
+	background: skyblue;
+}
+.box3{
+	height: 150px;
+	width: 200px;
+	background: yellowgreen;
+
+}
+.box4{
+	height: 150px;
+	width: 200px;
+	background: skyblue;
+
+}
+.box5{
+	height: 150px;
+	width: 200px;
+	background: yellowgreen;
+	
+
+}
+
+.main:hover{
+	font-size: 40px;
+	color: firebrick;
+	cursor: pointer;
+}
+.box1:hover{
+	height: 200px;
+	width: 250px;
+	background: palevioletred;
+	text-shadow: 5px 5px 3px black;
+	padding-top: 100px;
+	text-decoration-line: underline;
+}
+.box2:hover{
+	height: 200px;
+	width: 250px;
+	background: pink;
+	text-shadow: 5px 5px 3px black;
+	padding-top: 100px;
+	text-decoration-line: overline;
+
+}
+.box3:hover{
+	height: 200px;
+	width: 250px;
+	background: grey;
+	text-shadow: 5px 5px 3px black;
+	padding-top: 100px;
+	text-decoration-line: line-through;
+
+}
+.box4:hover{
+	height: 200px;
+	width: 250px;
+	background: cyan;
+	text-shadow: 5px 5px 3px black;
+	padding-top: 100px;
+	text-decoration-line: underline overline line-through;
+
+}
+.box5:hover{
+	height: 200px;
+	width: 250px;
+	background: seagreen;
+	text-shadow: 5px 5px 3px black;
+	padding-top: 100px;
+	text-decoration-line: underline overline;
+
+}
+
+
+
+
+
+
+

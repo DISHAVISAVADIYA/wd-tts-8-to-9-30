@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>gradient property</title>
+	<style type="text/css">
+	.linear-gradient{
+		display: flex;
+		justify-content: space-around;
+	}
+	.a{
+		height: 300px;
+		width: 400px;
+		border: 1px solid red;
+		background-image: linear-gradient(blue,yellow,red,green);
+		color: white;
+		font-size: 70px;
+		text-align: center;
+		padding-top: 100px;
+
+	}
+	.b{
+		height: 300px;
+		width: 400px;
+		border: 1px solid black;
+		background-image: linear-gradient(to right, skyblue,pink,grey);
+		color: white;
+		font-size: 70px;
+		text-align: center;
+		padding-top: 100px;
+	}
+	.c{
+		height: 300px;
+		width: 400px;
+		border: 1px solid black;
+		background-image: linear-gradient(to bottom right, orange,yellow);
+		color: white;
+		font-size: 70px;
+		text-align: center;
+		padding-top: 100px;
+	}
+	.radial-gradient{
+		display: flex;
+		justify-content: space-around;
+		font-size: 80px;
+		text-align: center;
+
+	}
+	.d{
+		height: 300px;
+		width: 400px;
+		border: 1px solid black;
+		background-image: radial-gradient(skyblue,white,pink,yellow);
+	}
+	.e{
+		height: 300px;
+		width: 400px;
+		border: 1px solid black;
+		background-image: radial-gradient(skyblue,red,pink,violet);
+	}
+	.e{
+		height: 300px;
+		width: 300px;
+		border: 1px solid black;
+		background-image: radial-gradient(yellow,orange);
+		border-radius: 50%;
+	}
+	.f{
+		height: 300px;
+		width: 300px;
+		border: 1px solid black;
+		background-image: radial-gradient(green 40%, blue);
+		border-radius: 50%;
+	}
+	.conic-gradient{
+		display: flex;
+		justify-content: space-around;
+		font-size: 80px;
+		text-align: center;
+	}	
+	.g{
+		height: 300px;
+		width: 400px;
+		border: 1px solid black;
+		background-image: conic-gradient(red,yellow,blue,green,pink,black,white)
+	}
+	.h{
+		height: 300px;
+		width: 400px;
+		border: 1px solid black;
+		background-image: conic-gradient(red 0deg,red 90deg, yellow 90deg, yellow 180deg,pink 180deg, pink 270deg, green 270deg, green 360deg)
+	}
+	.i{
+		height: 300px;
+		width: 300px;
+		border: 1px solid black;
+		background-image: conic-gradient(black,white,grey);
+		border-radius: 50%;
+		
+	}
+	</style>
+	
+</head>
+<body>
+	<h1 style="text-align: center; font-size: 50px;">linear-gradient </h1>
+	<div class="linear-gradient">
+	<div class="a">default</div>
+	<div class="b">left to right</div>
+	<div class="c">bottom right</div>
+</div>
+	<br>
+	<h1 style="text-align: center; font-size: 50px;">Radial-gradient </h1>
+	<div class="radial-gradient">
+		<div class="d"></div>
+		<div class="e"></div>
+		<div class="f"></div>
+	</div>
+	<h1 style="text-align: center; font-size: 50px;">conic-gradient </h1>
+	<div class="conic-gradient">
+		<div class="g"></div>
+		<div class="h"></div>
+		<div class="i"></div>
+	</div>
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
