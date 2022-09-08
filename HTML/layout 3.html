@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>layout</title>
+	<link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Square+Peg&family=Uchen&display=swap" rel="stylesheet">
+
+	<style>
+		header{
+			height:  150px;
+			display: flex;
+			background-image: url(https://cdn.pixabay.com/photo/2017/01/08/20/25/abstract-1963884_960_720.jpg);
+
+		}
+		.logo{
+			height: 150px;
+			width:  20%;
+		}
+		.logo img{
+			height:  100%;
+			width: 100%;
+		}
+		.name{
+			height: 150px;
+			width:  80%;
+			font-size: 80px;
+			margin-left: 40%;
+			padding-top: 30px;
+		}
+		nav{
+			height: 40px;
+		}
+		.page{
+			height:  250px;
+			display: flex;
+		}
+		ul{
+			list-style: none;
+			display: flex;
+			margin-left: 70%;
+		}
+		li{
+			padding-left: 20px;
+		}
+		section{
+			height: 250px;
+			width: 10%;
+			display: flex;
+		}
+		article{
+			width: 45%;
+			height: 250px;
+		}
+		article img{
+			height: 100%;
+			width: 100%;
+		}
+		p{
+	
+			padding-left: 2%;
+			font-size: 20px;
+			font-family: 'Edu VIC WA NT Beginner', cursive;
+		}
+		iframe{
+			height: 100%;
+			width: 100%;
+		}
+		aside{
+			width: 40%;
+			margin-left: 2%;
+		}
+		footer{
+			height: 50px;
+			font-size: 40px;
+			text-align: center;
+
+		}
+
+	</style>
+</head>
+<body>
+<header>
+	<div class="logo"><img src="https://us.123rf.com/450wm/butenkow/butenkow1606/butenkow160600220/58069024-vector-logo-for-womens-fashion-illustration-of-girl.jpg?ver=6">
+	</div>
+	<div class="name">SHOPPING
+	</div>
+</header>
+
+	<nav>
+		
+		<ul>
+			<li><a href="">HOME</a></li>
+			<li><a href="">ABOUT</a></li>
+			<li><a href="">SERVICE</a></li>
+			<li><a href="">CONTACT</a></li>
+			</ul>
+		</nav>
+		<div class="page">
+		<section>
+			<form>
+				
+			<label>Gender</label><br>
+			<select>
+			<option>SELECT</option>
+			<option>Female</option>
+			<option>Male</option>
+			</select><br><br>
+			<label>Season</label>
+			<select>
+			<option>SELECT</option>
+			<option>Summar</option>
+			<option>Winter</option>
+			<option>moonsoon</option>
+			</select><br><br>
+			<label>Product</label><br>
+			<select>
+			<option>SELECT</option>
+			<option>Clothing</option>
+			<option>Acceserioes</option>
+			<option>Footwear</option>
+			<option>shoes</option>
+			</select></form>
+		</section>
+		<article>
+			<img src="data:image/jpeg;base64,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"></img>
+</article>
+	<aside>
+			<iframe src="https://www.youtube.com/embed/ltTFB8xHAIg"></iframe>
+		</aside>
+	</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		
+<footer>
+	follow  us
+</footer>
+</body>
+</html>	
