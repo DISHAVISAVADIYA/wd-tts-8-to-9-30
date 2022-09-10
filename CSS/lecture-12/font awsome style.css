@@ -1,0 +1,52 @@
+.header{
+	height: 100px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	position: relative;
+	
+}
+.logo{
+	width: 15%;
+
+}
+.logo img{
+	height: 100%;
+	width: 100%;
+}
+.nav{
+	width: 85%;
+	/*border: 1px solid red;*/
+	text-transform: uppercase;
+	background: grey;
+
+}
+.nav ul{
+	list-style: none;
+	display: flex;
+	font-size: 20px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 50px;
+}
+.nav ul li{
+	padding-left: 30px;
+	padding-top: 20px;
+
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+
+}
+.header::before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	background-image: linear-gradient(black,green,blue);
+	opacity: 0.2;
+}

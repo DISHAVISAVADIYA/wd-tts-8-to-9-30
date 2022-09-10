@@ -1,0 +1,150 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+.main{
+	height: 90vh;
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin-top: 2.5%;
+	margin-left: 5%;
+	position: relative;
+	background-image: url(https://cdn.pixabay.com/photo/2017/07/03/11/58/smoke-2467437_960_720.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main::before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+}
+.nav{
+	height: 40px;
+	width: 100%;
+	/*border: 1px solid red;*/
+	display: flex;
+	color: white;
+
+
+}
+.nav ul{
+	display: flex;
+	list-style: none;
+	margin: 1%;
+	text-transform: capitalize;
+
+}
+.nav ul li{
+	padding-right: 20px ;
+	z-index: 2;
+}
+.nav ul li:hover{
+	background: grey;
+
+
+}
+
+.search{
+	left: 85%;
+	position: absolute;
+	top: 10px;
+}
+.search input{
+	border-radius: 10px 20px 20px 10px;
+}
+.box{
+	height: 84vh;
+	/*border: 1px solid blue;*/
+	color: white;
+	text-align: center;
+	
+}
+.name{
+	padding-top: 5%;
+	
+
+
+}
+.name h2{
+	position: absolute;
+	font-size: 50px;
+	margin-left: 65%;
+}
+
+.name h2::first-letter{
+	color: red;
+}
+.content{
+	position: absolute;
+	font-size: 15px;
+	/*border: 1px solid white;*/
+	height: 200px;
+	width: 380px;
+	margin-left: 61%;
+	margin-top: 5%;
+	padding-right: 160px;
+}
+.content:hover{
+	font-size: 18px;
+}
+.picture{
+	position: absolute;
+	width: 49%;
+	height: 400px;
+	/*border:  1px solid white;*/
+	margin-left: 1%;
+
+
+}
+.a{
+	height: 190px;
+	width: 49%;
+	/*border: 1px solid pink;*/
+	float: left;
+}
+.b{
+	height: 190px;
+	width: 49%;
+	/*border: 1px solid pink;*/
+	float: right;
+}
+.c{
+	height: 190px;
+	width: 49%;
+/*	border: 1px solid pink;
+*/	float: left;
+	margin-top: 18px;
+}
+.d{
+	height: 190px;
+	width: 49%;
+	/*border: 1px solid pink;*/
+	float: right;
+	margin-top: 18px;
+}
+.picture img{
+	height: 100%;
+	width: 100%;
+	transition: 2s;
+
+}
+.picture img:hover{
+	box-shadow: 2px 4px 6px whitesmoke;
+	border-radius: 30px;
+
+}
+
+
+
+
+
+
+
+
+

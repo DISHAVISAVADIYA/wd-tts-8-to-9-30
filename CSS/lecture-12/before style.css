@@ -1,0 +1,20 @@
+.a{
+	height: 500px;
+	width: 1000px;
+	border: 1px solid black;
+	position: relative;
+}
+.a img{
+	height: 100%;
+	width: 100%;
+}
+.a::before{
+	content: "";
+	background-image: linear-gradient(pink,yellow,green,red);
+	position: absolute;
+	top:  0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	opacity: 0.2;
+}
