@@ -1,0 +1,12 @@
+ul li{
+text-transform: capitalize;
+list-style: square;	
+font-size: 20px;
+
+}
+ol li{
+text-transform: capitalize;
+list-style: circle; /*also use none/square*/	
+font-size: 20px;
+
+}

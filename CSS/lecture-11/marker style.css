@@ -1,0 +1,12 @@
+
+li{
+text-transform: capitalize;
+font-size: 20px;	
+
+}
+::marker{
+	color: red;
+	font-size: 21px;
+	
+
+}

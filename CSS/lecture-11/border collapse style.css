@@ -1,0 +1,39 @@
+caption{
+	border: 1px solid blue;
+	font-size: 30px;
+	padding: 10px;
+}
+
+table{
+	height: 30%;
+	width: 30%;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-left: 35%;
+	margin-top: 50px;
+
+}
+tr{
+	border: 1px solid black;
+	text-transform: capitalize;
+
+}
+th{
+	border: 1px solid red;
+	text-transform: uppercase;
+	padding: 5px;
+	
+
+}
+td{
+	border: 1px solid green;
+	padding: 5px;
+
+
+}
+tr:hover{
+	background: grey;
+	color: white;
+}

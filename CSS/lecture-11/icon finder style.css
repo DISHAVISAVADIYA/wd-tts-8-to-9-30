@@ -1,0 +1,15 @@
+li{
+text-transform: capitalize;
+font-size: 30px;
+color: red;
+
+}
+ul{
+list-style-image: url(arrow.png);
+}
+li:hover{
+	text-shadow: 0px 10px 2px grey;
+}
+
+
+

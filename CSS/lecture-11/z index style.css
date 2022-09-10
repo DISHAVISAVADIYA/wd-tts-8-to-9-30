@@ -1,0 +1,46 @@
+.main{
+	height: 400px;
+	width: 400px;
+	/*position: absolute ;*/
+
+
+
+}
+.main p{
+	position: absolute;
+	font-size: 40px;
+	color: blue;
+	position: absolute ;
+	z-index: -1;
+
+
+}
+.main img{
+	height: 100%;
+	width: 100%;
+
+}
+.box{
+	height: 400px;
+	width: 400px;
+	/*position: absolute;*/
+	
+
+
+}
+.box img{
+	height: 100%;
+	width: 100%;
+
+
+
+}
+.box p{
+	position: absolute;
+	color: green;
+	font-size: 22px;
+	z-index: 1;
+
+
+
+}

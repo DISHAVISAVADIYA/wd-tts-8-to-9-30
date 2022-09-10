@@ -1,0 +1,36 @@
+.a{
+	height: 200px;
+	width: 200px;
+	background: skyblue;
+	border: 2px solid black;
+	outline: 4px solid red;
+	position: absolute;
+	top: 15px;
+	left: 5px;
+
+}
+.b{
+	height: 200px;
+	width: 200px;
+	background: blue;
+	border: 2px solid black;
+	outline: 8px solid green;
+	top: 15px;
+	left: 240px;
+	position: absolute;
+
+
+
+}
+.c{
+	height: 200px;
+	width: 200px;
+	background: violet;
+	border: 2px solid black;
+	outline: 6px solid yellow;
+	top: 15px;
+	left: 480px;
+	position: absolute;
+
+
+}
