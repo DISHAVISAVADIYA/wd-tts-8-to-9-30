@@ -1,0 +1,167 @@
+.nav{
+	height: 80px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	display: flex;
+	position: sticky;
+	top: 0px;
+	background: white;
+}
+.nav .logo{
+	height: 80px;
+	width: 10%;
+	/*border: 1px solid black;*/
+
+} 
+.nav .logo img{
+	height: 100%;
+	width: 100%;
+
+}
+.nav .title{
+	height: 100%;
+	width: 90%;
+	/*border: 1px solid red;*/
+
+
+}
+.nav .title ul{
+	display: flex;
+	list-style: none;
+	margin-left: 58%;
+	margin-top: 25px;
+	/*border: 1px solid black;*/
+	text-align: center;
+
+
+
+}
+.nav .title ul li{
+	padding-right: 20px;
+	/*border: 1px solid green;*/
+	margin-right: 5px;
+
+
+}
+.nav .title ul li a{
+	text-decoration: none;
+	/*border: 1px solid red;*/
+	/*background: yellow;*/
+	padding: 10px;
+	
+
+
+
+}
+.nav .title ul li a:hover{
+	background-image: linear-gradient(45deg,red,purple);
+	color: white;
+	cursor: pointer;
+	position: relative;
+	opacity: 0.3;
+
+}
+
+.nav .title ul li a:hover::before{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	content: "";
+
+}
+.banner{
+	height: 450px;
+	width: 100%;
+	/*border: 1px solid red;*/
+	position: relative;
+
+}
+.banner img{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+
+
+}
+.banner h1{
+	position: absolute;
+	font-size: 50px;
+	top: 10px;
+	left: 70%;
+	bottom: 0px;
+	right: 0px;
+}
+.banner p{
+	position: absolute;
+	top: 100px;
+	left: 70%;
+	bottom: 0px;
+	right: 0px;
+	padding-right: 50px;
+}
+.banner:before{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	content: "";
+
+}
+.content{
+	height: 250px;
+	width: 100%;
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+
+}
+.content h3{
+	text-align: center;
+}
+.content .box{
+	height: 180px;
+	width: 100%;
+	/*border: 1px solid green;*/
+	display: flex;
+	justify-content: space-between;
+
+}
+.content .col{
+	height: 180px;
+	width: 20%;
+	/*border: 1px solid green;*/
+}
+.content .col p{
+	height: 20px;
+	/*border: 1px solid red;*/
+	margin: 0px;
+	text-align: center;
+}
+.content .col img{
+	height: 87%;
+	width: 100%;
+	transition: 2s;
+	border-radius: 30px;
+}
+.content .col h6{
+	font-size: 12px;
+	padding: 5px;
+}
+.content .col img:hover{
+	cursor: pointer;
+
+	animation-name: imgani;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+}
+@keyframes imgani{
+
+50%{
+	transform: traslate(5px,5px);
+	border: 1px solid red;
+	box-shadow: 2px 2px 3px 4px grey;
+
+}
+}
