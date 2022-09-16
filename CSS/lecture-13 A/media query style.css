@@ -1,0 +1,117 @@
+
+.main{
+	height: auto;
+	width: 80%;
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10%;
+	
+
+
+
+
+
+
+}
+
+
+.col{
+	height: 400px;
+	width: 30%;
+	border: 1px solid black;
+	margin-top: 50px;
+	/*border-radius: 20px;*/
+	background-image: linear-gradient(51deg,yellowgreen 50%,orange 50%);
+
+
+
+
+
+}
+.col h2{
+	text-align: center;
+
+}
+h2:hover{
+	animation-name: h2ani;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes h2ani{
+	0%{
+		color: red;
+	}
+	50%{
+		color: blue;
+	}
+	100%{
+		color: darkseagreen;
+	}
+}
+
+.col p{
+	font-size: 19px;
+	text-align: center;
+	padding: 5px 50px 5px 20px ;
+	/*border: 1px solid red;*/
+	margin-top: -10px;
+}
+.col p::first-letter{
+	font-size: 23px;
+	color: red;
+}
+
+@media (max-width: 480px)
+{
+	.main{
+		flex-direction: column;
+
+
+	}
+	.col{
+		width: 100%;
+		height: auto;
+	
+	}
+}
+@media (max-width: 576px)
+{
+	.main{
+		flex-direction: column;
+	}
+	.col{
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width: 768px)
+{
+	.main{
+		flex-direction: column;
+	}
+	.col{
+		height: auto;
+		width: auto;
+	}
+}
+@media (max-width: 992px)
+{
+	.main{
+		flex-direction: column;
+	}
+	.col{
+		height: auto;
+		width: auto;
+	}
+}
+@media (max-width: 1200px)
+{
+	.main{
+		flex-direction: column;
+	}
+	.col{
+		height: auto;
+		width: auto;
+	}
+}
