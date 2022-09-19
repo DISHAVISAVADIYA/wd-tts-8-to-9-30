@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>letter</title>
+	<style type="text/css">
+		*{
+			background: orange;
+
+		}
+		.a{
+			height: 50%;
+			width: 70%;
+			/*border: 1px solid black;*/
+			font-size: 150px;
+			display: flex;
+			position: absolute;
+			top: 30%;
+			left: 22%;
+
+		}
+		span{
+			letter-spacing: 9px;
+			animation-name: ani;
+			animation-duration: 5s;
+			animation-iteration-count: infinite;
+			color: coral;
+
+
+
+
+		}
+		@keyframes ani{
+			35%{
+				transform: rotatex(360deg);
+				text-shadow: 2px 2px 2px black;
+
+			}
+			100%{
+				transform: rotatex(360deg);
+
+			}
+		}
+			span:nth-child(even){
+				color: pink;
+			/*comment all nth-child & uncomment here to see other effect*/
+				/*animation-delay: 0.9s;*/
+			}
+			/*comment start to here*/
+			span:nth-child(1){
+				animation-delay: 0.3s;
+			}
+			span:nth-child(2){
+				animation-delay: 0.6s;
+			}
+			span:nth-child(3){
+				animation-delay: 0.9s;
+			}
+			span:nth-child(4){
+				animation-delay: 1.2s;
+			}
+			span:nth-child(5){
+				animation-delay: 1.5s;
+			}
+			span:nth-child(6){
+				animation-delay: 1.8s;
+			}
+			span:nth-child(7){
+				animation-delay: 2.1s;
+			}
+			/*comment enf to here*/
+		
+
+
+
+	</style>
+</head>
+<body>
+	<div class="a">
+		<span>L</span>
+		<span>O</span>
+		<span>A</span>
+		<span>D</span>
+		<span>I</span>
+		<span>N</span>
+		<span>G</span>
+
+	</div>
+
+</body>
+</html>

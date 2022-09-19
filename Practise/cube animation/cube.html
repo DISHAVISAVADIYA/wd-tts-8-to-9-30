@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>cube</title>
+	<style type="text/css">
+		body{
+			background: grey;
+
+
+
+		}
+
+		.first{
+			height:400px;
+			width: 400px;
+			border: 1px solid black;
+			background: red;
+			animation: ani 3s infinite ;
+			transform: translate(-50px -50px) rotate(0deg);
+			margin: 5% 0px 0px 30%;
+			box-shadow: 2px 3px 2px black;
+			 /*make a first square round*/
+			/*border-radius: 50%;*/
+
+
+
+		}
+		.second{
+			height:  300px;
+			width: 300px;
+			border: 1px solid black;
+			margin: 50px 0px 0px 50px;		
+			background: coral;	
+			animation: ani1 3s infinite;
+			box-shadow: 2px 2px 3px black;
+		}
+		.center{
+			height: 200px;
+			width: 200px;
+			border: 1px solid black;
+			margin: 50px 0px 0px 50px;			
+			background: hotpink;
+			box-shadow: 2px 2px 3px black,-3px -3px 3px  grey;
+
+		}
+		@keyframes ani {
+			0%{
+				transform: translate(50px,50px) rotate(0deg);
+			}
+			100%{
+				transform: translate(50px,50px) rotate(90deg);
+
+			}
+		}
+		@keyframes ani1 {
+			0%{
+				transform: rotate(360deg);
+			}
+			100%{
+				transform:  rotate(60deg);
+				
+
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="first">
+	<div class="second">
+		<div class="center">
+		</div>
+	</div>
+</div>
+</body>
+</html>
