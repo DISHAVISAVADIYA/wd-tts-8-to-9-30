@@ -1,0 +1,182 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+
+}
+body{
+	background-image: linear-gradient(90deg,pink,white) ;
+
+}
+::selection{
+	color: white;
+	background: black;
+}
+.main{
+	height: auto;
+	width: 80%;
+	margin: 50px 0px 50px 10% ;
+	box-shadow: 2px 2px 5px 5px black ;
+	position: relative;
+	padding: 20px;
+	
+}
+.main .picture{
+	height: 300px;
+	width: 300px;
+	border: 1px solid black;
+	margin: 5px 0px 0px 5px;
+	transition: 2s;
+}
+.main .picture:hover{
+	box-shadow: 2px 2px 5px 5px black;
+}
+.main .picture img{
+	height: 100%;
+	width: 100%;
+}
+.main h1{
+	position: absolute;
+	left: 35%;
+	top: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 55px;
+	color: transparent;
+	background-image: linear-gradient(black,seagreen);
+	background-clip: text;
+	-webkit-background-clip: text;
+	/*transition: 1s;*/
+	animation: h1ani 2s infinite;
+}
+h1 span{
+	animation: h1ani 2s infinite;
+
+}
+h1 span:nth-child(1){
+	animation-delay: 0.3s;
+
+}
+h1 span:nth-child(2){
+	animation-delay: 0.7s;
+
+}
+h1 span:nth-child(3){
+	animation-delay: 1.2s;
+
+}
+h1:hover{
+	font-size: 58px;
+}
+@keyframes h1ani{
+	0%{
+		background-image: linear-gradient(0deg,white,seagreen);
+		background-clip: text;
+		-webkit-background-clip: text;
+		transform: rotateX(90deg);
+
+
+	}
+	100%{
+		background-image: linear-gradient(180deg,black,darkgreen);
+		background-clip: text;
+		-webkit-background-clip: text;
+	}
+}
+
+.main h4{
+	position: absolute;
+	left: 50%;
+	top: 110px;
+	font-variant: small-caps;
+}
+h2{
+	position: relative;
+	text-transform: uppercase;
+}
+h2::after{
+		position: absolute;
+			content: "";
+			height: 3px;
+			width: 0%;
+			background: hotpink;
+			bottom: -2px;
+			left: 0px;
+			transition: 1s;
+
+
+		}
+h2:hover:after{
+	width: 15%;
+}
+
+.contribution{
+	height: auto;
+	width: auto;
+	/*border: 1px solid red;*/
+	line-height: 30px;
+
+}
+.contribution ul{
+	margin-left: 25px;
+}
+::marker{
+	color: red;
+
+}
+.contribution span{
+	color: blue;
+}
+p::First-letter{
+	font-size: 150%;
+	font-weight: bolder;
+
+
+
+}
+.Early-life{
+	height: auto;
+	width: auto;
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+	line-height: 30px;
+	position: relative;
+
+
+
+}
+.Early-life p{
+	text-indent: 70px;
+
+}
+.Early-life a{
+	margin-left: 31%;
+}
+.Fight-for-self-rule{
+	height: auto;
+	width: auto;
+	/*border: 1px solid red;*/
+	margin-top: 10px;
+	line-height: 30px;
+
+}
+.Fight-for-self-rule p{
+	text-indent: 70px;
+
+
+}
+.Fight-for-self-rule a{
+	margin-left: 15%;
+}
+.for-more{
+	text-align: center;
+}
+a:visited{
+	color: green;
+}
+a:link{
+	color: blue;
+}
+a:hover{
+	color: purple;
+}
