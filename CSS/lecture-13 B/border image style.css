@@ -1,0 +1,7 @@
+div{
+	height: 200px;
+	width: 400px;
+	border: 50px solid transparent;
+	border-image: url("border image.jpg") 10% round;
+
+}
