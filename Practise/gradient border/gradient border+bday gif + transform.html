@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gradient border + transform</title>
+	<style type="text/css">
+		body{
+			background-image: repeating-linear-gradient(to right,blue 3%,pink 4%);
+			background-size: 1370px 680px;
+			background-repeat: no-repeat;
+		}
+
+		h1{
+		text-align: center;
+		padding-top: 25px;
+		position: relative;
+		font-size: 32px;
+		margin-left: 30px;
+		padding-right: 50px;
+		font-family: cursive;
+		text-shadow: 0px 10px 5px black;
+		color: red;
+		font-weight: bolder;
+
+
+
+		}
+		span{
+			margin-right: 20px;
+			letter-spacing: 2px;
+
+		}
+		span:nth-child(1){
+		position: absolute;
+		top: 100px;
+		left: 300px;
+		transform: rotate(-45deg);
+		}
+		span:nth-child(2){
+		position: absolute;
+		top: 115px;
+		right: 330px;
+		transform: rotate(45deg);
+
+		}
+		
+		.a{
+			height:300px;
+			width: 300px;
+			border: 2px solid black;
+			position: relative;
+			top: 135px;
+			bottom: 0px;
+			right: 0px;
+			left: 500px;
+			box-shadow: 3px 3px 5px 4px black;
+			animation: ani 3s infinite;
+
+		}
+		@keyframes ani{
+			0%{
+			
+				background-image: linear-gradient(red,green,yellow);
+
+
+			}
+			50%{
+			
+				background-image: linear-gradient(blue,pink,red);
+
+			}
+			100%{
+
+				background-image: linear-gradient(yellowgreen,black,brown);
+
+			}
+
+		}
+
+		.a::before{
+			content: "GRADIENT BORDER";
+			position: absolute;
+			top: 10px;
+			bottom: -6px;
+			right: 0px;
+			left: 10px;
+			background: white;
+			height: 280px;
+			width: 280px;
+			text-align: center;
+			box-sizing: border-box;
+			padding-top: 100px;
+			font-size: 30px;
+
+
+		}
+		img{
+			height: 90%;
+			width: 90%;
+			position: absolute;
+			top: 5%;
+			left: 5%;
+		}
+	</style>
+</head>
+<body>
+	<h1><span>MANY MANY HAPPY</span><span> RETURNS OF THE DAY</span></h1>
+	<div class="a">
+
+		<img src="bday.gif">
+	</div>
+</div>
+
+</body>
+</html>
