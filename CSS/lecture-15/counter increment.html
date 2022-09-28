@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>counter increment</title>
+	<style type="text/css">
+		body{
+			counter-reset: abc; 
+		}
+		h3::before{
+			counter-increment: abc;
+			content: "sub. " counter(abc)":- ";
+		}
+	</style>
+</head>
+<body>
+	<h3>web designing</h3>
+	<h3>html</h3>
+	<h3>css</h3>
+	<h3>java script</h3>
+	<h3> bootstrap</h3>
+
+
+
+</body>
+</html>

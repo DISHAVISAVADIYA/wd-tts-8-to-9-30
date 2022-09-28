@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>grid sytem</title>
+	<style type="text/css">
+		.grid{
+			/*border: 1px solid black;*/
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(3, 1fr);
+			display: grid;
+			grid-gap: 10px;
+			width: 80%;
+			margin-left: 10%;
+		}
+		.box{
+			/*border: 1px solid black;*/
+	
+		}
+		.box img{
+			height: 100%;
+			width: 100%;
+			border-radius: 20px;
+		}
+		</style>
+</head>
+<body>
+	<div class="grid">
+		<div class="box"><img src="i1.jpg"></div>
+		<div class="box"><img src="i2.jpg"></div>
+		<div class="box"><img src="i3.jpg"></div>
+		<div class="box"><img src="i4.jpg"></div>
+		<div class="box"><img src="i5.jpg"></div>
+		<div class="box"><img src="i6.jpg"></div>
+		<div class="box"><img src="i1.jpg"></div>
+		<div class="box"><img src="i2.jpg"></div>
+		<div class="box"><img src="i3.jpg"></div>
+
+	</div>
+
+</body>
+</html>

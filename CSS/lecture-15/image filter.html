@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>image filter</title>
+	<style type="text/css">
+		.grid{
+			/*border: 1px solid black;*/
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-template-rows: repeat(3, 1fr);
+			grid-gap: 10px;
+			width: 70%;
+			margin-left: 15%;
+			margin-top: 60px;
+		}
+		.box{
+			/*border: 1px solid black;*/
+
+		}
+		.box img{
+			height: 100%;
+			width: 100%;
+			border-radius: 10px;
+		}
+		#blur{
+			filter: blur(2px);
+		}
+		#brightness{
+			filter: brightness(1.5);
+		}
+		#brightness:hover{
+			filter: brightness(0.5);
+		}
+		}
+		#opacity{
+			filter: opacity(50%);
+		}
+		#contrast{
+			filter: contrast(50%);
+		}
+		#contrast:hover{
+			filter: contrast(150%);
+		}
+		}
+		#grayscale{
+			filter: grayscale(100%);
+		}
+		#sepia{
+			filter: sepia(50%);
+		}
+		#shadow{
+			filter: drop-shadow(5px 3px);
+		}
+	</style>
+</head>
+<body>
+	<div class="grid">
+		<div class="box" id="normal"><img src="i6.jpg"></div>
+		<div class="box" id="blur"><img src="i1.jpg"></div>
+		<div class="box" id="brightness"><img src="i2.jpg"></div>
+		<div class="box" id="opacity"><img src="i3.jpg"></div>
+		<div class="box" id="contrast"><img src="i4.jpg"></div>
+		<div class="box" id="grayscale"><img src="i5.jpg"></div>
+		<div class="box" id="sepia"><img src="i6.jpg"></div>
+		<div class="box" id="shadow"><img src="i2.jpg"></div>
+
+
+	</div>
+
+</body>
+</html>
