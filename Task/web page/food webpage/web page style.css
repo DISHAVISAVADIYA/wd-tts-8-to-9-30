@@ -1,0 +1,380 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+header{
+	/*border: 1px solid black;*/
+	height: 600px;
+	width: 100%;
+	background-image: linear-gradient(rgba(50,50,50,0.2),rgba(50,50,50,0.2)),url("bg2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+nav{
+	/*border: 1px solid black;*/
+	height: 100px;
+	width: 100%;
+	display: flex;	
+}
+.nlogo{
+	/*border: 1px solid black;*/
+	height: 100px;
+	width: 10%;	
+
+
+}
+header nav .nlogo img{
+	width: 100%;
+	height: 100%;
+}
+header nav .nbar{
+	/*border: 1px solid black;*/
+	height: 100px;
+	width: 90%;			
+}
+header nav .nbar ul{
+	/*border: 1px solid red;*/
+	height: 100px;
+	width: 35%;
+	list-style: none;	
+	display: flex;
+	align-items: center;
+	margin-left: 65%;
+
+}
+header nav .nbar ul li{
+	/*border: 1px solid black;*/
+	height: 50px;
+	width: auto;
+	padding: 10px;
+
+}
+header nav .nbar ul li a{
+	font-size: 20px;
+	font-variant: small-caps;
+	text-decoration: none;
+	position: relative;
+	color: black;
+}
+header nav .nbar ul li a::after{
+	content: "";
+	position: absolute;
+	margin: auto;
+	width: 0%;
+	height: 2px;
+	background: brown;
+	display: block;
+	transition: 0.6s;
+	bottom: -10px;
+}
+header nav .nbar ul li a:hover::after{
+	width: 100%;
+
+}
+header h1{
+	height: 150px;
+	width: 45%;
+	margin: 7% 0% 0% 32%;
+	font-size: 45px;
+	background: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	padding-top: 50px;
+	border-radius: 15px;
+	text-shadow: 1px 1px 1px white ;	
+	position: relative;
+}
+header h1::after{
+	content: "";
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	height: 2px;
+	background: brown;
+	display: block;
+	transition: 0.6s;
+	bottom: 30px;
+}
+
+/*header over*/
+section{
+	height: 200px;
+	width: 90%;
+	/*border: 1px solid red;*/
+	margin: 0px 0px 0px 5%;
+	display: flex;
+}
+section h2{
+	/*border: 1px solid black;*/
+	width: 35%;
+}
+section span:nth-child(1){
+	font-size: 150px;
+	background-image: linear-gradient(to right,black 50%,brown 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+
+}
+section span:nth-child(2){
+	font-size: 55px;
+	animation: sani 2s infinite;
+	opacity: 0;
+	animation-delay: 1s;
+
+}
+@keyframes sani{
+	50%{
+		color: black;
+		opacity: 1;
+		font-size: 70px;
+	}
+}
+section p{
+	/*border: 1px solid red;*/
+	height: 200px;
+	width: 65%;
+	font-size: 20px;
+	padding: 50px 15px 15px 15px;
+	text-indent: 100px;
+}
+section p::first-letter{
+	font-size: 30px;
+	color: brown;
+}
+/*section over*/
+.item{
+	/*border: 1px solid black;*/
+	height: auto;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 15px;
+}
+.item .food{
+	/*border: 1px solid black;*/
+	position: relative;
+
+
+}
+.item .food img{
+	height: 85%;
+	width: 100%;
+	border-radius: 20px;
+	box-shadow: 0px 0px 5px 2px lightgrey;
+}
+.item .food h3{
+	font-size: 18px;
+	text-transform: capitalize;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	/*border: 1px solid black;*/
+	padding: 3px;
+	background: lightgrey;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px black;
+
+}
+.item .food h4{
+	font-size: 18px;
+	text-transform: capitalize;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	/*border: 1px solid black;*/
+	padding: 3px;
+	background: lightgrey;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px black;
+}
+.item .food a{
+	color: brown;
+	text-decoration: none;
+}
+
+.item .food::after{
+	content: "";
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0, 0, 0,0.3));
+	opacity: 0;
+	transition: 1s;
+	border-radius: 20px;
+}
+.item .food:hover::after{
+	opacity: 1;
+}
+footer{
+	/*border: 1px solid black;*/
+	height: 150px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+footer .ft{
+	display: flex;
+	justify-content: space-between;
+}
+footer .ft div{
+	/*border: 1px solid black;*/
+	height: 150px;
+	width: 50%;
+}
+footer .ft div h3,p{
+	text-align: center;
+	padding: 3px;
+	font-variant: small-caps;
+}
+footer .ft div ul{
+	display: flex;
+	/*border: 1px solid red;*/
+	font-size: 30px;
+	margin-left: 45%;
+	width: 15%;
+	justify-content: space-around;
+	margin-top: 5%;
+
+}
+footer .ft div  li{
+	list-style: none;
+	/*border: 1px solid green;*/
+	padding-right: 20%;
+}
+footer .ft div ul li a{
+	color: black;
+	border-radius: 5px;	
+}
+footer .ft div ul li a:hover{
+	font-size: 32px;
+	color: blue;
+	cursor: pointer;
+
+}
+/*media query start*/
+@media (max-width: 1400px){
+footer .ft div ul{
+	margin-top: 4%;
+	}
+}
+@media (max-width: 992px){
+header nav .nbar ul{
+	margin-left: 55%;
+}
+header h1{
+	font-size: 35px;
+}
+section span:nth-child(1){
+	font-size: 120px;
+}
+section span:nth-child(2){
+ font-size: 40px;
+}
+section p{
+	padding-top: 20px;
+
+}
+.item .food h3,
+.item .food h4{
+	font-size: 15px;
+}
+}
+@media (max-width: 768px){
+header nav .nbar ul{
+	margin-left: 40%;
+}
+header h1{
+ margin-top: 15%;
+ font-size: 30px;
+}
+section{
+ flex-direction: column;
+
+}
+section h2{
+	margin-left: 30%;
+	margin-top: 1%;
+}
+section p{
+	padding-left: 5%;
+
+}
+section span:nth-child(1){
+	font-size: 80px;
+}
+section span:nth-child(2){
+ font-size: 20px;
+}
+section p{
+	padding-top: 20px;
+	height: auto;
+	margin-left: 15%;
+
+
+}
+.item{
+	margin-top: 22%;
+	display: list-item;
+
+}
+.item .food{
+	height: 250px;
+	width: 70%;
+	/*border: 2px solid green;*/
+	margin-left: 15%;
+	margin-top: 2%;
+}
+}
+@media (max-width: 576px){
+	header nav .nbar ul{
+	height: auto;
+	width: auto;
+	margin: 5% 0px 0px 25%;
+}
+header h1{
+	width: 60%;
+	margin-left: 22%;
+}
+section h2{
+	margin-left: 21%;
+}
+section p{
+	text-align: center;
+	text-indent: 50px;
+}
+.item{
+	margin-top: 44%;
+}
+footer .ft div{
+	height: auto;
+}
+footer .ft p{
+	font-size: 14px;
+}
+footer .ft div ul{
+	margin-top: 15%;
+}
+@media (max-width: 480px){
+	header nav .nbar ul{
+	margin: 5% 0px 0px 24%;
+}	
+	header nav .nbar ul li{
+		padding: 15px 5px 0px 5px;
+
+}
+section p{
+	font-size: 17px;
+}
+footer .ft div ul{
+	margin-top: 25%;
+}
