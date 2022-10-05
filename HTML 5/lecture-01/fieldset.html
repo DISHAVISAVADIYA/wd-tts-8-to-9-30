@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>fieldset</title>
+	<style type="text/css">
+		form{
+			height: auto;
+			width: 30%;
+			/*border: 1px solid black;*/
+			padding: 10px;
+			line-height: 40px;
+			margin-left: 35%;
+		}
+		label{
+			font-weight: bolder;
+			text-transform: uppercase;
+
+		}
+		input{
+		
+		}
+	</style>
+</head>
+<body>
+	<form>
+	<fieldset>
+		<legend>student details</legend>
+<label>name:</label>
+<input type="text" placeholder="full name"><br>
+<label>eduction:</label>
+<input type="checkbox">12th
+<input type="checkbox">b.sc
+<input type="checkbox">b.com
+<input type="checkbox">b.a. <br>
+
+<label>age</label>
+<input type="radio">male
+<input type="radio">female
+<br>
+<label>passing year:</label>
+<input list="year">
+<datalist id="year">
+	<option value="2019">
+	<option value="2020">
+	<option value="2021">
+	<option value="2022">
+</datalist><br>
+<input type="submit" value="submit">
+
+
+</fieldset>
+
+</form>
+</body>
+</html>
