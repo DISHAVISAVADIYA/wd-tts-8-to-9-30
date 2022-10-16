@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>function parameters</title>
+</head>
+<body>
+
+</body>
+<script>
+	function add(a,b){
+			document.write(a+b + "<br>");
+	}
+	add (50,20);
+	add(20,10);
+
+	function min(c,d){
+		document.write(c-d);
+		document.write("<br>");
+
+	}
+	min(20,10);
+
+	function mul(x,y){
+		document.write(x*y);
+		document.write("<br>");
+
+	}
+	mul(5,2);
+	mul()//create for nan
+
+	function name(fname,lname){
+		document.write("hello" +' ' +fname+ ' '+lname + "<br>");
+	}
+	name();
+
+	function fullName(name="firstName",surname="lastname"){
+		document.write(name+" "+surname + "<br>");
+	}
+	fullName("disha","visavadiya");
+	fullName("krishna","shah");
+	fullName();
+
+	// for space " "+ 
+	// nan define not give any value
+</script>
+</html>
