@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>change in html text</title>
+</head>
+<body>
+	<center>
+		<h1 style="font-size: 40px; border: 1px solid black ">ONCLICK EVENT</h1>
+	<h1>change in html text</h1>
+
+<h2 id="text">welcome</h2>
+<button onclick="change()">click</button>
+<hr>
+
+<h1>change in style</h1>
+<h2 id="color">home page</h2>
+<button onclick="chg()">click</button>
+<hr>
+
+<h1>change in text and style</h1>
+<h2 id="h2">welcome to the page</h2>
+<button onclick="both()">click</button>
+</center>
+</body>
+<script>
+	function change(){
+		document.getElementById("text").innerHTML="hello"
+	}
+
+	function chg(){
+		document.getElementById("color").style.color="red"
+	}
+
+	function both()
+	{
+		document.getElementById("h2").innerHTML="thank you for visit"
+		document.getElementById("h2").style.backgroundColor="green"
+	}
+</script>
+</html>
