@@ -1,0 +1,286 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	border: 5px solid black;
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 4%;
+
+}
+header{
+	/*border: 1px solid black;*/
+	height: 400px;
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+	background-image: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url(book.jpeg);
+	background-size: cover;
+	display: flex;
+}
+header .nav{
+	/*border: 1px solid black;*/
+	height: inherit;
+	width: 20%;
+	background: black;
+	opacity: 0.7;
+	
+
+}
+header .nav .border{
+	outline: 1px solid white;
+	height: 80px;
+	width: 70%;
+	margin: 10% 0% 0% 18%;
+	position: relative;
+}
+header .nav .name{
+	border: 1px solid white;
+	height: 95px;
+	width: 100%;
+	margin: 2% 0% 0% 3%;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	position: absolute;
+	top: -10px;	
+
+
+}
+header .nav .name span{
+	font-size: 25px;
+}
+header .nav .list{
+	/*border: 1px solid white;*/
+	height: auto;
+	width: 100%;
+}
+header .nav .list ul{
+	list-style: none;
+	text-align: center;
+	padding-top: 1%;
+	line-height: 30px;
+	font-size: 12px;
+}
+header .nav .list ul li a{
+	color: white;
+	text-decoration: none;
+}
+header .nav .social{
+	/*border: 1px solid white;*/
+	height: auto;
+	width: 100%;
+	margin-top: 7%;
+	font-size: 20px;
+	text-align: center;
+
+}
+header .nav .social i{
+	color: white;
+	margin-left: 5% ;
+	padding-top: 10px;
+
+}
+header .nav .social p{
+	color: white;
+	font-size: 12px;
+	font-weight: lighter;
+	padding-top: 10px ;
+
+}
+/*end nav*/
+header .introduce{
+	/*border: 1px solid black;*/
+	height: 200px;
+	width: 30%;
+	margin: 10% 0% 0% 43%;
+	background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+	border-radius: 5%;
+
+}
+header .introduce h4{
+	text-align: center;
+	padding-top: 6%;
+	color: blue;
+}
+header .introduce p{
+	font-size: 12px;
+	padding: 15px 25px 5px 25px;
+}
+/*end header*/
+.abt{
+	/*border: 1px solid black;*/
+	height: 300px;
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+ .blank{
+	width: 20%;
+	height: inherit;
+	background: grey;
+	
+}
+.abt .about,.profile{
+	width: 35%;
+	height: 300px;
+	/*border: 1px solid black;*/
+}
+.abt i{
+	font-size: 35px;
+	margin:5% 0% 0% 6%;
+	color: blue;
+}
+.abt i h5{
+	font-size: 15px;
+	margin-top: 10px;
+}
+.abt p{
+	padding: 10px 20px;
+	font-size: 14px;
+}
+/*end abt*/
+
+.work{
+	/*border: 1px solid black;*/
+	height: 250px;
+	width: 90%;
+	margin-left: 5%;
+	display: flex;
+	/*justify-content: space-between;*/
+	align-items: center;
+}
+.work .work-image{
+	/*border: 3px double grey;*/
+	height: 230px;
+	width: 70%;
+	margin-top: 15px;
+	margin-left: 5%;
+
+
+}
+.work .work-image h2{
+	padding: 10px;
+	color: blue;
+}
+.work .work-image img{
+	/*border: 1px solid blue;*/
+	width: 21%;
+	margin-left: 20px;
+	box-shadow: 1px 1px 3px 0px grey;
+	
+	height: 70%;
+}
+/*end work*/
+.client{
+	height: 500px;
+	width: 90%;
+	margin-left: 5%;
+
+	/*border: 1px solid black;*/
+	display: flex;
+}
+.client .our-client{
+	height: 150px;
+	width: 80%;
+	/*border: 1px solid red;*/
+	margin-top: 3%;
+	padding: 18px 25px 5px 55px;
+
+
+}
+.client .our-client h2{
+	color: blue;
+}
+.client .our-client p{
+	font-size: 15px;
+	margin-top: 2%;
+}
+.client .client-logo{
+	height: 300px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin-top: 3%;
+	margin-left: 5%;
+	/*display: flex;*/
+
+
+}
+ .client .our-client .client-logo .logo1{
+ 	height: 140px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin-left: 5%;
+	display: flex;
+	justify-content: space-between;
+}
+.client .our-client .client-logo .logo1 img{
+	height: 100px;
+	width: 22%;
+	/*border: 1px solid blue;*/
+	margin-top: 20px;
+	box-shadow: 1px 1px 3px 0px grey;
+
+}
+.client .our-client .client-logo .logo2{
+	height: 140px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin-left: 5%;
+	display: flex;
+	justify-content: space-between;
+
+}
+.client .our-client .client-logo .logo2 img{
+	height: 100px;
+	width: 22%;
+	/*border: 1px solid red;*/
+	margin-top: 20px;
+	box-shadow: 1px 1px 3px 0px grey;
+}
+.talk-form{
+	height: 250px;
+	width: 90%;
+	margin-left: 5%;
+
+	display: flex;
+	justify-content: space-between;
+	/*border: 1px solid blue;*/
+}
+.talk-form .talk-us{
+	height: 250px;
+	width: 35%;
+	border: 3px double grey;
+	padding: 15px 20px;
+	margin-left: 3%;
+
+}
+.talk-form .talk-us h3{
+	color: blue;
+}
+
+.talk-form .talk-us p{
+	font-size: 15px;
+}
+.talk-form .form{
+	height: 250px;
+	width: 35%;
+	/*border: 1px solid green;*/
+	line-height: 50px;
+	text-align: center;
+	padding-top: 5%;
+
+}
+.talk-form .form input{
+	border: none;
+	border-bottom: 1px solid black;
+
+}
+.talk-form .form button{
+	float: right;
+	margin: 20px 40px 0px 0px ;
+}
