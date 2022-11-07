@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<title>fadeout</title>
+	<style type="text/css">
+		div{
+			height: 180px;
+			width: 50%;
+			/*border: 1px solid black;*/
+		
+		}
+		h1{
+			padding: 0% 1%;
+			border-left: 15px solid red;
+		}
+		h3{
+			padding: 0% 3%;
+			display: none;
+			background-image: linear-gradient(45deg,pink,red,yellow);
+
+		}
+		button{
+			margin-left: 20%;
+		}
+	</style>
+</head>
+<body>
+<div>
+<h1>NEW MASSAGE <span>(mouserover for fadein)</span></h1>
+<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+</div>
+<button>click to fadeout</button>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("h1").mouseover(function(){
+				$("h3").fadeIn()
+		});
+		$("button").click(function(){
+			$("h3").fadeOut()
+		})
+	});
+</script>
+</html>

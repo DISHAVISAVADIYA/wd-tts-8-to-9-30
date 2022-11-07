@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>slideuo and down</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+
+	<style type="text/css">
+		.a{
+			width: 80%;
+			height: 100px;
+			background-image: linear-gradient(120deg,skyblue,pink);
+			border-radius: 20px;
+		}
+		.a h1{
+			color: white;
+			padding-top: 2%;
+			text-transform: uppercase;
+			font-family: 'Island Moments', cursive;
+		}
+		button{
+				margin-top: 10px;
+		}
+		.b{
+			width: 80%;
+			height: 200px;
+			background-image: linear-gradient(120deg,lavender,green);
+			margin-top: -20px;
+			border-radius: 20px;
+			
+
+			}
+			.b ul{
+				list-style: none;
+				font-size: 20px;
+				padding: 2%;
+				text-transform: uppercase;
+				line-height: 40px;
+			}
+			</style>
+		
+		
+		</head>
+<body>
+	<center>
+<div class="a">
+	<h1>lorem ipsum</h1>
+<button class="up">slide up</button>
+<button class="down">slide down</button>
+</div>
+
+<div class="b">
+	<ul>
+		<li>home</li>
+		<li>about</li>
+		<li>product</li>
+		<li>service</li>
+
+	</ul>
+</div>
+</center>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".up").click(function(){
+			$(".b").slideUp()
+		})
+		$(".down").click(function(){
+			$(".b").slideDown()
+		})
+	})
+</script>
+</html>

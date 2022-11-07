@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<title>select ul first li</title>
+</head>
+<body>
+<ul>
+	<li>first</li>
+	<li>second</li>
+	<li>third</li>
+	<li>fourth</li>
+	<li>fifth</li>
+	<li>sixth</li>
+
+
+</ul>
+<hr>
+<ul>
+	<li>first</li>
+	<li>second</li>
+	<li>third</li>
+	<li>fourth</li>
+	<li>fifth</li>
+	<li>sixth</li>
+</ul>
+	<button>double click</button>
+
+</body>
+<script>
+	$(document).ready(function(){
+		$("button").dblclick(function(){
+			$("ul li:first").hide()
+		})
+	})
+</script>
+</html>

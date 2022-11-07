@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<title>hide</title>
+</head>
+<h1>hide me</h1>
+<h1>don't click</h1><body>
+
+<h3><b style="background: yellow;">note</b> --click on any one line all lines are disappear</h3>
+<hr>
+<h2>hide me</h2>
+<h2>don't click</h2><body>
+<h3><b style="background: yellow;">note</b> --click on one line only line disappear using this keyword or this useful for the currant element</h3>
+
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("h1").click(function(){
+			$("h1").hide()
+		});
+	});
+
+	$(document).ready(function(){
+		$("h2").click(function(){
+				$(this).hide()
+		});
+		
+	});
+</script>
+</html>

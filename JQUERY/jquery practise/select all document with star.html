@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<title>form event</title>
+	<style type="text/css">
+		h1,h2,h3{
+			display: none;
+		}
+	</style>
+</head>
+<body>
+<h1>welcome</h1>
+<h2>hello</h2>
+<h3 style="color: red;"> "*"--shows everything</h3>
+<button>click</button>
+</body>
+<script>
+	$(document).ready(function(){
+		$("*").click(function(){
+			$("*").show()
+		});
+	});
+</script>
+</html>
