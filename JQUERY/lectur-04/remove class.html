@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>remove class</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<style type="text/css">
+		.a{
+			font-size: 30px;
+			color: red;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+<h1 class="a">this is a paragraph</h1>
+</body>
+<script type="text/javascript">
+	var a=$.noConflict();
+	a(document).ready(function(){
+		a("h1").mouseover(function(){
+			a("h1").removeClass("a")
+		});
+	});
+</script>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<title>chain in jquery</title>
+</head>
+<body>
+<h1>hello</h1>
+<h2>hi</h2>
+<h3>welcome</h3>
+<button>click</button>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("h1,h2,h3").css("color","red")
+		})
+	})
+</script>
+</html>
