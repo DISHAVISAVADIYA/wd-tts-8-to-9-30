@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<title>wrap</title>
+	<style type="text/css">
+		p{
+			background: pink;
+
+		}
+	</style>
+</head>
+<body>
+<h1>this is h1</h1>
+<h1>h1 is going to wrap</h1>
+<button>double click</button>
+</body>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("button").dblclick(function(){
+			$("h1").wrap("<p></p>")
+		});
+	});
+</script>
+</html>
