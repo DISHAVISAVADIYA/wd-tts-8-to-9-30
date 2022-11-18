@@ -1,0 +1,109 @@
+@media (max-width: 1200px){
+	nav .name h3{
+		font-size: 17px;
+
+}
+nav .name h1{
+		font-size: 45px;
+
+}
+.navigation ul li a{
+			font-size: 17px;
+}
+}
+@media (max-width: 1080px){
+	nav .name h3{
+		font-size: 15px;
+
+}
+	nav .name h1{
+		font-size: 35px;
+
+
+}
+		.navigation ul li a{
+			font-size: 16px;
+}
+}
+@media (max-width: 980px){
+nav .name h3{
+		font-size: 14px;
+
+}
+nav .icon i{
+	margin-left: 10px;
+}
+	
+.navigation ul li a{
+	font-size: 14px;
+}
+}
+@media (max-width: 720px){
+nav{
+		height: 55px;
+	}
+	nav .name{
+	margin-left: 1%;
+	padding: 10px 10px 10px 10px;
+	line-height: 20px;
+
+	
+}
+nav .name h1{
+		font-size: 27px;
+
+}
+nav .name h3{
+		font-size: 10px;
+		padding-left: 1px;
+
+}
+.navigation{
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 100%;
+	right: 0px;
+	left: -750px;
+	height: auto;
+			
+	}
+.navigation ul
+{
+	display: block;
+	width: 100%;
+	padding: 0%;
+	margin-right: 0%;
+	background-image: linear-gradient(rgba(135,206,255,0.8),rgba(0, 50, 110, 0.5));
+	}
+			
+#open{
+	display: block;
+	top: 60%;
+	left: 85%;
+}
+#close{
+	display: block;
+	top: 60%;
+	left: 90%;
+
+}
+@media (max-width: 480px){
+nav .name{
+		margin-left: 1%;
+	padding: 12px 5px 10px 5px;
+	line-height: 15px;
+	width: 35%;
+
+
+	
+}
+nav .name h1{
+	font-size: 18px;
+}
+nav .name h3{
+	font-size: 11px;
+}
+}
+}

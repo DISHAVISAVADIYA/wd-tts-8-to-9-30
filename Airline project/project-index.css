@@ -1,0 +1,320 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: 'Playfair Display', serif;
+	/*font-family: 'Overpass', sans-serif;*/
+}
+
+.slider{
+	height: 400px;
+	width: 90%;
+	/*border: 1px solid black;*/
+	background-image: url('flight.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 400px;
+	margin-left: 5%;
+	position: relative;
+	animation-name: sani;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-delay: 2s;
+
+}
+@keyframes sani{
+	0%{
+		background-image: url('flight.jpg');
+	}
+	25%{
+		background-image: url('flight2.jpg');
+	}
+	50%{
+		background-image: url('flight3..jpg');
+	}
+	100%{
+		background-image: url('flight4.jpg');
+	}
+}
+.slider .content{
+	height: 100px;
+	width: 30%;
+	/*border: 1px solid black;*/
+	position: absolute;
+	margin: 6% 4%;
+	color: white;
+	line-height: 44px;
+	padding: 5px;
+	
+
+}
+.slider .content h1{
+	font-family: 'Crimson Text', serif;
+	font-size: 50px;
+}
+.slider .content h2{
+	font-family: 'Crimson Text', serif;
+	font-weight: lighter;
+	padding-left: 30%;
+	font-size: 50px;
+
+}
+.slider p{
+	position: absolute;
+	height: auto;
+	width: 30%;
+	/*border: 1px solid black;*/
+	margin: 22% 0% 0% 4%;
+	color: white;
+	line-height: 25px;
+}
+
+.slider .btn1{
+	position: absolute;
+	margin: 31.5% 0% 0% 6%;
+	height: auto;
+	width: auto;
+	font-size: 15px;
+	padding: 0.6%;
+	background: #343434;
+	color: white;
+	border: none;
+
+}
+.slider .btn2{
+	position: absolute;
+	margin: 35.5% 0% 0% 21.7%;
+	height: auto;
+	width: auto;
+	font-size: 15px;
+	padding: 0.6%;
+	background: #343434;
+	color: white;
+	border: none;
+
+}
+.slider .btn2 a i{
+	color: white;
+	font-size: 15px;
+}
+.slider::before{
+	content: "";
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	bottom: 0px;
+}
+/*end slider*/
+section{
+	height: auto;
+	width: 90%;
+	/*border: 1px solid black;*/
+	margin-left: 5%;
+	display: flex;
+	/*margin-bottom: 2%;*/
+	/*padding-bottom: 2%;*/
+}
+section aside{
+	height: inherit;
+	width: 30%;
+	/*border: 1px solid black;*/
+	background: #D3D3D3;
+	padding-bottom: 2%;
+}
+section aside .form1{
+	/*border: 1px solid pink;*/
+	height: auto;
+	padding-bottom: 5%;
+	width: 60%;
+
+}
+section aside .form1 h1{
+	margin: 10% 0% 5% 0%;
+	font-size: 25px;
+	/*border: 1px solid black;*/
+
+}
+section aside .form1 label{
+	margin-right: 20px;
+	font-size: 17px;
+
+}
+section aside .form2{
+	height: auto;
+	/*border: 1px solid black;*/
+	padding-bottom: 5%;
+}
+section aside .form2 label{
+	font-size: 17px;
+	padding: 10px 0px 0px 0px;
+	float: left;
+	margin-left: 15%;
+}
+section aside .form2 input{
+	height: 30px;
+	width: 70%;
+	border-style: outset;
+}
+section aside .form2 .i1{
+	width: 40%;
+}
+section aside .form2 .i2{
+	width: 30%;
+
+}
+section aside .form2 .i3{
+
+ width: 35%;
+  float: left;
+  margin-top: 18px;
+  margin-left: -25%;
+
+}
+section aside .form2 .submitt{
+	background-image: linear-gradient(skyblue,blue);
+	font-size: 25px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	width: 25%; 
+	height: 35px; 
+	margin-top: 14px;
+}
+section aside .news{
+	height: 300px;
+	width: 70%;
+	/*border: 1px solid black;*/
+	margin-top: 10%;
+	overflow: hidden;
+}
+section aside .news h1{
+	text-align: left;
+	font-size: 28px;
+
+}
+section aside .news a{
+	font-size: 13px;
+	text-decoration: none;
+	
+}
+section aside .news a p{
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 17px;
+	line-height: 25px;
+
+}
+section aside .news h6{
+	float: left;
+}
+/*end aside*/
+article{
+	height: auto;
+	width: 70%;
+	/*border: 1px solid black;*/
+}
+article .welcome{
+	height: 200px;
+	width: 90%;
+	margin:4% 0% 0% 5%;
+	/*border: 1px solid black;*/
+}
+article .welcome h1{
+	font-size: 28px;
+
+}
+article .welcome p{
+	color: #00008B;
+	padding: 1%;	
+	font-size: 17px;
+	line-height: 25px;
+}
+article .fa{
+	font-size: 14px;
+	/*border: 1px solid black;*/
+	position: relative;
+
+}
+article b{
+	font-size: 25px;
+	position: absolute;
+	top: -5px;
+	padding-left: 3px;
+}
+article .service{
+	height: 250px;
+	width: 90%;
+	margin:4% 0% 0% 5%;
+	/*border: 1px solid black;*/
+}
+article .service p{
+	font-size: 17px;
+	line-height: 25px;
+	padding-top: 2%;
+
+}
+article .service button{
+	
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #343434;
+	color: white;
+	font-style: italic;
+}
+article .service #btn3{
+	margin-left: 80%;
+}
+article .service #btn4{
+	margin-left: 70%;
+	background-image: linear-gradient(skyblue,blue);
+
+}
+article .client{
+	height: 280px;
+	width: 90%;
+	margin: 5% 0% 0% 5%;
+	/*border: 1px solid black;*/
+	display: flex;
+	justify-content: space-between;
+}
+article .client .information1,
+article .client .information2{
+	height: 280px;
+	width: 47%;
+	/*border: 1px solid black;*/
+}
+article .client .information1 h1{
+	font-size: 28px;
+	}
+
+article .client .information1 p{
+	font-size: 17px;
+	margin-top: 2%;
+	line-height: 25px;
+
+}
+article .client .information2{
+	background-image: linear-gradient(skyblue,blue);
+	border-radius: 3%;
+
+}
+article .client .information2 p{
+	color: white;
+	padding: 40px 25px;
+	line-height: 25px;
+	font-size: 17px;
+
+}
+article .client .information2 h4{
+	float: right;
+	color: white;
+	margin-right: 25px;
+	margin-top: -40px;
+
+}
+article .client .information2::first-letter{
+	font-size: 80px;
+
+}
+/*end section */
