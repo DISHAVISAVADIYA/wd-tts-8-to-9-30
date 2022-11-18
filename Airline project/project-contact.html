@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="project-contact.css">
+	<link rel="stylesheet" type="text/css" href="project-contact-media-query.css">
+
+	<link rel="stylesheet" type="text/css" href="navigation-bar.css">
+	<!-- <link rel="stylesheet" type="text/css" href="project-footer.css"> -->
+	
+	<link rel="stylesheet" type="text/css" href="navigation-bar-media-queery.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bungee+Spice&family=Crimson+Text:ital@1&family=Dancing+Script:wght@600&family=DynaPuff&family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Fredoka+One&family=Inspiration&family=Inter+Tight&family=Josefin+Sans&family=Montserrat:wght@300;500&family=Noto+Sans&family=Noto+Serif+Georgian&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@700&family=Overpass:wght@200&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@300&family=Square+Peg&family=Uchen&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	
+	<title>contact us</title>
+</head>
+<body>
+	<nav>
+	<div class="name">
+		<h1><i>AIR<span class="h1">LINES</span></i></h1>
+		<h3><i>INTERNATIONAL TRAVEL</i></h3>
+	</div>
+
+	<div class="menu">
+		<div class="icon">
+		<i class="fa fa-home fa-fw"></i>
+		<i class="fa fa-envelope-o"></i>
+		<i class="fa fa-wheelchair"></i>
+
+	</div>
+		<i class="fa fa-align-justify" id="open" onclick="show()"></i>
+
+	<div class="navigation" id="n-bar">
+		<ul>
+			<li><a href="project-index.html">HOME</a></li>
+			<li><a href="project-plan.html">MAKE PLAN</a></li>
+			<li><a href="project-staff.html">SAFETY</a></li>
+			<li><a href="project-help.html">HELP</a></li>
+			<li><a href="project-contact.html"> CONTACTS</a></li>
+		</ul>
+	</div>
+		<i class="fa fa-close" id="close" onclick="hide()"></i>
+
+	</nav>
+
+<!-- nav end -->
+<form onsubmit="msg()">
+	<h1><I>Enquire Here</I></h1>
+	<input type="text" name="" placeholder="full name">
+	<input type="email" name="" placeholder="email address">
+	<br>
+	<input type="text" name="" placeholder="phone / mobile number">
+	<input type="text" name="" placeholder="booking date">
+	<br>
+	<input type="text" name="" placeholder="general enquiry">
+	<input type="text" name="" placeholder="luggage information">
+	<br>
+	<input type="text" name="" placeholder="address">
+	<input type="text" name="" placeholder="international / domestic">
+	<br>
+	<input type="text" name="" placeholder="other details" id="od" >
+	<br>
+	<input type="submit" value="submit" id="inn">
+
+</form>
+<div class="abt-us">
+	<div class="detail" id="office">
+				<i class="fa fa-plane"></i>
+				<h1><a href="https://www.google.com/maps/place/Rajkot+Airport/@22.3089497,70.7822641,15z/data=!4m5!3m4!1s0x0:0xd870ff39ab966b28!8m2!3d22.3089497!4d70.7822641">Our Office</a></h1>
+				<address>8Q5J+HWC, Gandhigram Civil Aerodrome, Gujarat 360006</address>
+			</div>
+			<div class="detail" id="phone">
+				<i class="fa fa-phone"></i>
+				<h1><a>Phone number</a></h1>
+				<h4>91-02101 01202</h4>
+				<h4>91-1400-01202 <small>toll free</small></h4>
+
+
+				</div>
+			<div class="detail" id="fax">
+				<i class="fa fa-fax"></i>
+				<h1><a href="#">Fax</a></h1>
+				<h4>91-02-1020-0</h4>
+
+
+			</div>
+			<div class="detail" id="mail">
+				<i class="fa fa-home"></i>
+				<h1><a href="mailto: Ab321@gmail.com">E-mail</a></h1>
+				<h4>Ab321@gmail.com</h4>
+			</div>
+
+	</div>
+<footer>
+		<p class="p1">copyright <i class="fa fa-copyright"> </i>2010<u> Domain Name</u>-All rights Reserved</p>
+		<p class="p2"><u>Free CSS Templetes by Templetes</u></p>
+	</footer>
+</body>
+<script type="text/javascript">
+	function show(){
+		document.getElementById("n-bar").style.left="0px"
+	}
+	function hide(){
+		document.getElementById("n-bar").style.left="-750px"
+	}
+	function msg(){
+		alert("submitted your record")
+	}
+</script>
+
+</html>

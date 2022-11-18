@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>navigation bar</title>
+	<link rel="stylesheet" type="text/css" href="navigation-bar.css">
+	<link rel="stylesheet" type="text/css" href="navigation-bar-media-queery.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Bungee+Spice&family=Crimson+Text:ital@1&family=Dancing+Script:wght@600&family=DynaPuff&family=Edu+TAS+Beginner:wght@500&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Fredoka+One&family=Inspiration&family=Inter+Tight&family=Island+Moments&family=Josefin+Sans&family=Montserrat:wght@300;500&family=Noto+Sans&family=Noto+Serif+Georgian&family=Oleo+Script+Swash+Caps:wght@400;700&family=Oswald:wght@700&family=Overpass:wght@200&family=Pacifico&family=Playfair+Display:ital@1&family=Roboto+Condensed:wght@300&family=Roboto+Mono:wght@300&family=Square+Peg&family=Uchen&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<nav>
+	<div class="name">
+		<h1><i>AIR<span class="h1">LINES</span></i></h1>
+		<h3><i>INTERNATIONAL TRAVEL</i></h3>
+	</div>
+
+	<div class="menu">
+		<div class="icon">
+		<i class="fa fa-home fa-fw"></i>
+		<i class="fa fa-envelope-o"></i>
+		<i class="fa fa-wheelchair"></i>
+
+	</div>
+		<i class="fa fa-align-justify" id="open" onclick="show()"></i>
+
+	<div class="navigation" id="n-bar">
+		<ul>
+			<li><a href="project-index.html" target="_blank">HOME</a></li>
+			<li class="project-plan.html"><a href="#">MAKE PLAN</a></li>
+			<li><a href="project-staff.html">SAFETY</a></li>
+			<li><a href="project-help.html">HELP</a></li>
+			<li><a href="project-contact.html"> CONTACTS</a></li>
+		</ul>
+	</div>
+		<i class="fa fa-close" id="close" onclick="hide()"></i>
+
+	</nav>
+
+</body>
+<script type="text/javascript">
+	function show(){
+		document.getElementById("n-bar").style.left="0px"
+	}
+	function hide(){
+		document.getElementById("n-bar").style.left="-750px"
+	}
+
+</script>
+</html>

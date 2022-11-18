@@ -1,0 +1,62 @@
+
+	@media (max-width: 1200px){
+footer .p1,
+footer .p2{
+	padding: 2.5%;
+}
+
+}
+
+@media (max-width: 980px){
+
+	footer .p1,
+	footer .p2{
+		padding-top: 3%;
+	}
+}
+
+@media (max-width: 720px){
+	form input{
+		width: 80%;
+		margin-left: 10%;
+	}
+	#od{
+		width: 80%;
+		height: 100px;
+
+	}
+	.abt-us{
+		flex-direction: column;
+		margin-top: 34%;
+
+	}
+	.abt-us .detail{
+		width: 60%;
+		margin-left: 20%;
+		margin-bottom: 1%;
+
+	}
+	footer{
+		margin-top: 32.5%;
+		height: 60px;
+	}
+	footer .p1,
+	footer .p2{
+		padding-top: 2.5%;
+	}
+}
+@media (max-width: 480px){
+	.abt-us{
+		margin-top: 45%;
+	}
+	footer{
+		margin-top: 43.5%;
+		font-size: 10px;
+		height: 40px;
+
+	}
+	footer .p1,
+	footer .p2{
+		padding-top: 2.5%;
+	}
+}

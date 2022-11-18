@@ -1,0 +1,430 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+@media (max-width: 1400px){
+section aside .form1 h1{
+	margin-top: 15%;
+}
+	section aside .form2 .i1{
+	width: 43%;
+}
+section aside .form2 .i2{
+	width: 26%;
+}
+.slider .btn1{
+	margin: 30.4% 0% 0% 6%;
+
+}
+.slider .btn2{
+	margin: 30.4% 0% 0% 21.1%;
+	
+}
+}
+@media (max-width: 1200px){
+.slider .btn1{
+	margin: 35.5% 0% 0% 6%;
+
+}
+.slider .btn2{
+	margin: 35.5% 0% 0% 23.3%;
+	
+}
+
+section aside .form1{
+	width: 80%;
+
+}
+section aside .form1 input{
+margin-left: 5%;
+}
+section aside .form2 .i3{
+  margin-left: -28%;
+
+}
+}
+/**/
+@media (max-width: 1080px){
+.slider .btn1{
+	margin: 39.5% 0% 0% 4%;
+
+}
+.slider .btn2{
+	margin: 39.5% 0% 0% 23.3%;
+	
+}
+section aside{
+margin-bottom: 5%;
+}
+section aside .form1{
+	width: 90%;
+
+}
+section aside .form1 input{
+margin-left: 5%;
+}
+section aside .form2 .i3{
+   margin-left: -31%;
+}
+section aside .news{
+	margin-top: 20%;
+}
+article .service{
+margin-top: 8%;
+}
+article .service p{
+	padding-top: 4%;
+	margin-bottom: 3%;
+
+}
+article .client{
+	margin-top: 18%;
+	margin-bottom: 2%;
+}
+}
+
+@media (max-width: 980px){
+	.slider .btn1{
+	margin: 43.5% 0% 0% 3%;
+
+}
+.slider .btn2{
+	margin: 43.5% 0% 0% 24.1%;
+}
+section aside .form1 h1{
+	margin-top: 6%;
+	font-size: 23px;
+}
+section aside .form1 label{
+	margin-right: 15px;
+
+}
+section aside .form1 input{
+	margin-bottom: 5%;
+}
+section aside .form2 input{
+	margin-bottom: 2%;
+}
+section aside .form2 .i3{
+   margin-left: -35%;
+}
+
+									        /*query here*/
+section aside .news{
+	width: 100%;
+}
+section aside .news h1{
+	font-size: 20px;
+}
+									/*end query*/
+article .service{
+	margin-top: 10%;
+}
+article .service #btn4{
+	margin-left: 67%;
+}
+article .client{
+	margin-top: 22%;
+	margin-bottom: 5%;
+}
+
+}
+/**/
+@media (max-width: 720px){
+.slider{
+	position: relative;
+}
+.slider .btn2{
+	position: absolute;
+	left: 42%;
+	}
+section{
+	flex-direction: column;
+}
+section aside{
+width: 100%;
+/*margin-left: 10%;*/
+padding-top: 1%;
+padding-bottom: 0px;
+
+}
+
+section aside .form1 h1{
+	margin-top: 3%;
+	margin-bottom: 1%;
+}
+section aside .form1 label{
+	margin-right: 50px;
+	font-size: 17px;
+	margin-top: 0%;
+
+
+
+}
+section aside .form1{
+	/*border: 1px solid black;*/
+	padding-top: 0px;
+	/*padding-bottom: 5%;*/
+	width: 100%;
+	padding-bottom: 0px;
+	margin-bottom: -3%;
+}
+section aside .form2 label{
+	width: 100%;
+	text-align: left;
+	padding: 2px 0px 0px -2px;
+
+
+}
+section aside .form2 input{
+	margin-bottom: 5px;
+}
+section aside .form2 .i1{
+	width: 45%;
+
+}
+section aside .form2 .i2{
+	width: 25%;
+
+}
+section aside .form2 .i3{
+
+ width: 45%;
+  /*float: left;*/
+  margin-top: 5px;
+  margin-left: 15%;
+
+}
+.slider{
+	height: 300px;
+}
+.slider .content{
+line-height: 35px;
+}
+.slider .content h1{
+font-size: 35px;
+}
+.slider .content h2{
+font-size: 35px;
+}
+.slider p{
+	
+	width: 35%;
+	/*border: 1px solid black;*/
+	margin: 27% 0% 0% 4%;
+	color: white;
+	line-height: 17px;
+	font-size: 15px;
+
+
+}
+
+.slider .btn1{
+	margin: 44% 0% 0% 0%;
+	height: 10%;
+	width: 100%;
+}
+
+.slider .btn2{
+	margin: 44% 0% 0% 24.0%;
+	height: 30px;
+	width: 3%;
+}
+section aside .form1{
+	border: 1px solid pink;
+	height: auto;
+	/*padding-bottom: 5%;*/
+	width: 100%;
+
+}
+section aside .form1 label{
+	margin-right: 10px;
+	font-size: 17px;
+
+}
+
+section aside .form2{
+	padding-bottom: 0%;
+}
+	section aside .form2 .submitt{
+	color: white;
+	font-weight: bold;
+	width: 20%; 
+	height: 35px; 
+	margin-top: 0px;
+	margin-right: 60px;
+}
+
+
+section aside .news{
+	height: auto;
+	width: 55%;
+	margin-top: 1%;
+	margin-bottom: 0%;
+	
+}
+section aside .news a p{
+	white-space: nowrap;
+	overflow: visible;
+	font-size: 17px;
+	line-height: 22px;
+
+}
+section aside .news h6{
+	float: left;
+}
+
+article{
+	width: 100%;
+}
+article .welcome{
+	height: 200px;
+	width: 100%;
+	margin:0% 0% 0% 0%;
+	
+}
+article .welcome h1{
+	font-size: 28px;
+
+}article .welcome p{
+	
+	font-size: 15px;
+	line-height: 17px;
+}
+article .service{
+	height: 280px;
+	width: 100%;
+	margin:0.5% 0% 0% 0%;
+	
+}
+article .service p{
+	font-size: 15px;
+	line-height: 17px;
+	
+
+	}
+article .service button{
+	
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #343434;
+	color: white;
+	font-style: italic;
+}
+article .service #btn3{
+	margin-left: 81%;
+}
+article .service #btn4{
+	margin-left: 68%;
+	background-image: linear-gradient(skyblue,blue);
+
+}
+article .client{
+	height: auto;
+	width: 100%;
+	margin: 0.5% 0% 0.5% 0%;
+	flex-direction: column;
+	
+}
+article .client .information1,
+article .client .information2{
+	height: auto;
+	width: 100%;
+	/*border: 1px solid black;*/
+
+}
+article .client .information1 h1{
+	font-size: 28px;
+	}
+
+article .client .information1 p{
+	font-size: 15px;
+	margin-top: 2%;
+	line-height: 17px;
+
+}
+article .client .information2{
+	background-image: linear-gradient(skyblue,blue);
+	border-radius: 3%;
+	margin-top: 1%;
+
+}
+article .client .information2 p{
+	color: white;
+	padding: 30px 25px;
+	line-height: 17px;
+	font-size: 15px;
+
+}
+article .client .information2 h4{
+	float: right;
+	color: white;
+	margin-right: 25px;
+	margin-top: -30px;
+
+}
+}
+
+/**/
+@media (max-width: 480px){
+
+.slider{
+	height: 250px;
+	background-size: 100% 250px;
+
+}
+
+.slider .content{
+	margin-top: 10%;
+}
+.slider .content h1{
+	font-size: 25px;
+
+
+}
+.slider .content h2{
+font-size: 25px;
+}
+.slider  p{
+	font-size: 12px;
+	line-height: 15px;
+	margin-top: 32%;
+	width: 45%;
+
+}
+.slider .btn1,
+.slider .btn2{
+	margin: 54% 0% 0% 0%;
+	height: 10%;
+	width: 100%;
+}
+
+.slider .btn2{
+	margin-left: 29.5%;
+	height: 25px;
+	width: 3%;
+}
+section aside{
+	margin-bottom: 0.5%;
+}
+
+section aside .form1{
+	/*border: 1px solid pink;*/
+	height: auto;
+	/*padding-bottom: 5%;*/
+	width: 100%;
+
+}
+section aside .form1 label{
+	margin-right: 0px;
+	font-size: 15px;
+
+}
+article .service #btn3{
+	margin-left: 70%;
+}
+article .service #btn4{
+	margin-left: 52%;
+}
+}
