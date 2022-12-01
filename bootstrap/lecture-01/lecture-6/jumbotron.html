@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jumbotrom</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="jumbotrom">
+		<center>
+			<h4>details</h4>
+			<form class="w-50">
+
+				<label class="form-label">user name</label>
+				<input type="text" name="" class="form-control" id="un">
+	
+					<label class="form-label">password</label>
+				<input type="password" name="" class="form-control" id="ps">
+			</form>
+			<button class="btn btn-danger mt-2" type="button" onclick="log()">log in</button>
+		</center>
+	</div>
+</body>
+<script type="text/javascript">
+	
+	function log(){
+		var a = document.getElementById("un").value;
+	var b = document.getElementById("ps").value;
+		if(a=="t" && b=="1234"){
+		window.location="https://getbootstrap.com/docs/5.0/getting-started/introduction/";
+		}
+		else{
+			alert("enter valid user name or password")
+		}
+	}
+	
+</script>
+
+</html>
