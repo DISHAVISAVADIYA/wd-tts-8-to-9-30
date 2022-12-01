@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>slider</title>
+	<style type="text/css">
+		*{
+			padding: 0%;
+			margin: 0%;
+			box-sizing: border-box;
+		}
+		.pic{
+			height: 500px;
+			width: 50%;
+			margin-left: 25%;
+		}
+		img{
+			height: 100%;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+<div class="pic">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqAGA_F_esPw5h8ry0g8gD4fFaHzeJNXsK2xejgf6mgyufP9j8vXLswUuydg0jRvn6GA&usqp=CAU" id="first">
+</div>
+</body>
+<script type="text/javascript">
+	function slider(){
+	document.getElementById("first").src='https://imgscf.slidemembers.com/docs/1/1/194/clear_sea_-_free_images_for_presentations_193372.jpg'
+}
+function slider2(){
+	document.getElementById("first").src='https://wallpaperaccess.com/full/1124438.jpg'
+}
+function slider3(){
+	document.getElementById("first").src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhqAGA_F_esPw5h8ry0g8gD4fFaHzeJNXsK2xejgf6mgyufP9j8vXLswUuydg0jRvn6GA&usqp=CAU"
+}
+
+	setInterval(slider,2000);
+	setInterval(slider2,4000);
+	setInterval(slider3,6000);
+</script>
+</html>

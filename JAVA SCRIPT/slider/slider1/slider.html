@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>slider using javascript</title>
+	<style type="text/css">
+		div{
+			height: 600px;
+			width: 70%;
+			margin-left: 15%;
+		}
+		img{
+			height: 100%;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+<div>
+<img src="p1.jpg" class="sl">
+<img src="p2.jpg" class="sl">
+<img src="p3.jpg" class="sl">
+<img src="p4.jpg" class="sl">
+<img src="p5.jpg" class="sl">
+<img src="p6.jpg" class="sl">
+
+</div>
+</body>
+<script type="text/javascript">
+	ar=0;
+	function slider(){
+		var img=document.getElementsByClassName('sl');
+		for(var a=0;a<=5;a++){
+			img[a].style.display="none";
+		}
+		if(ar==img.length){
+			ar=0;
+
+		}
+		img[ar].style.display="block";
+		ar++;
+		setTimeout(slider,1000)
+	}
+	slider();
+
+</script>
+</html>
