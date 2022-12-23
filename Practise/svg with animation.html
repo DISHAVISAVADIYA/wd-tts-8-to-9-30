@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>svg</title>
+    <style>
+        #one{
+            height: 500px;
+            width: 500px;
+            /* border: 1px solid red; */
+        }
+        #two{
+            height: 100px;
+            width: 500px;
+             margin-left: 70%;
+            margin-top: 500px;
+            border: 1px solid red;
+        }
+        .c1{
+            animation: one 2s infinite;
+        
+        }
+        .c2{
+            animation: two 2s infinite;
+
+        }
+        .c3{
+            animation: three 2s infinite;
+
+        }
+        .c4{
+            animation: four 4s infinite;
+
+        }
+        @keyframes one{
+            10%{
+                transform: translate(100px,100px);
+                fill: green;
+            }
+            50%{
+                transform: translate(200px,200px);
+                fill: skyblue;
+            }
+            100%{
+                transform: translate(500px,500px);
+                fill: skyblue;
+            }
+        }
+        @keyframes two{
+            10%{
+                transform: translate(-5%,5%);
+                fill: rgb(126, 149, 155);
+            }
+            50%{
+                transform: translate(-50%,50%);
+                fill: rgb(235, 135, 177);
+            }
+            100%{
+                transform: translate(-100%,100%);
+                fill: rgb(206, 173, 81);
+            }
+        }
+        @keyframes three {
+            50%{
+                transform: translate(25%)
+            }
+        }
+        @keyframes four {
+            50%{
+                transform: translate(-25%);
+                /* animation-delay: 1s; */
+            }
+        }
+    </style>
+</head>
+<body>
+    <svg id="one">
+
+<circle cx="50" cy="60" r="140" fill="red"class="c1"/>
+<circle cx="420" cy="60" r="140" fill="pink" class="c2"/>
+<circle cx="50" cy="450" r="140" fill="blue" class="c3"/>
+<circle cx="420" cy="450" r="140" fill="yellow" class="c4"/>
+
+</svg>
+<svg id="two">
+    <line x1="0" y1="0" x2="300" y2="00" style="stroke:rgb(42, 63, 182);stroke-width:5 ;" />
+    <line x1="300" y1="0" x2="500" y2="100" style="stroke:rgb(182, 42, 65);stroke-width:5 ;" />
+</svg>
+</body>
+</html>
